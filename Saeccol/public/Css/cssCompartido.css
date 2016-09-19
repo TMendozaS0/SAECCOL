@@ -1,0 +1,145 @@
+/*Creado: */
+
+/*=============================================
+                  GENERAL
+=============================================*/
+
+#contenedor {
+  width: 990px;
+  min-height: 600px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 10pt;
+}
+#form {
+  width: 990px;
+  min-height: 100px;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 20px;
+}
+#agregar, #agregar2, #agregar3 {
+  display: inline-block;
+  width: 980px;
+  min-height: 150px;
+  margin-top: 10px;
+  font-size: 10pt;
+}
+
+/*=============================================
+                  COLUMNAS
+=============================================*/
+
+.checkbox {
+  height: 35px;
+  min-width: 100px;
+  display: inline-block;
+  margin-left: 7.5px;
+}
+form .columna .col1 .checkbox input {
+  margin-top: 8px;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+  font-size: 12pt;
+}
+form .columna_derecha .col1 .checkbox input {
+  margin-top: 8px;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+  font-size: 12pt;
+}
+textarea {
+  font-size: 10pt;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  padding: 10px;
+  box-sizing: border-box;
+  resize:none;
+}
+
+/*=============================================
+                    TABLAS
+=============================================*/
+
+#contenedor_tabla {
+  overflow: scroll;
+  width: 980px;
+  height: 200px;
+  margin-top: 110px;
+  margin-bottom: 40px;
+  font-size: 10pt;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+#contenedor_tabla table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+}
+th {
+  background-color: #b6c4b6;
+  color: white;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even){
+  background-color: #e6e8e6
+}
+tr:hover{
+  background-color: rgba(79, 94, 27, 0.17);
+}
+
+/*=============================================
+                  BOTONES
+=============================================*/
+
+#sombra {
+  height: 40px;
+  padding-bottom: 5px;
+  width: 100%px;
+  text-align: center;
+  background-color: rgba(176, 176, 176,0.5);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+button {
+  height: 30px;
+  width: 100px;
+  margin-top: 8px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  -moz-border: 1px solid #acacac;
+  -webkit-bordrs: 1px solid #acacac;
+}
+form button:active,
+form button:hover {
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgba(42, 125, 159, 0.71);
+  -moz-border: 1px solid rgba(42, 125, 159, 0.71);
+  -webkit-border: 1px solid rgba(42, 125, 159, 0.71);
+}
+
+/*=============================================
+                  VALIDACIONES
+=============================================*/
+
+option[selected] {
+  display: none;
+}

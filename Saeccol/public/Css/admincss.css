@@ -1,0 +1,355 @@
+/*Creado: Félix Ricardo Oliva Alonso, 13/09/2016. Se creó el CSS para la vista root /*
+
+/*=============================================
+                  NOTIFICACION
+=============================================*/
+
+#mensaje_css{
+  width: 300px;
+  height: 100px;
+  position: relative;
+  top: 400px;
+  background: #ffffff;
+  color: black;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  box-sizing: border-box;
+}
+#mensaje_css a{
+  color: black;
+}
+
+/*=============================================
+                  COLUMNAS
+=============================================*/
+
+.columna {
+  margin-bottom: 10px;
+  padding: 0;
+  min-height: 60px;
+  width: 990px;
+}
+.col1 {
+    height: 65px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .col1 input,
+form .columna .col1 select {
+    height: 25px;
+    width: 100px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    margin-left: 0;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col2 {
+  min-height: 65px;
+  width: 230px;
+  display: inline-block;
+  margin-left: 7.5px;
+}
+form .columna .col2 input,
+form .columna .col2 select {
+  height: 25px;
+  width: 170px;
+  margin-top: 8px;
+  padding-left: 10px;
+  color: #555555;
+  font-size: 10pt;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  box-sizing: border-box;
+}
+.col3 {
+    height: 65px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .col3 input,
+form .columna .col3 select {
+    height: 25px;
+    padding-left: 10px;
+    width: 300px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col1e {
+    height: 65px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .col1e input,
+form .columna .col1e select{
+    height: 25px;
+    width: 400px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    margin-left: 0;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col1float{
+    padding-top: 5px;
+    padding-right: 10px;
+    min-height: 65px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 7.5px;
+    float: right;
+}
+
+/*=============================================
+                      AJAX
+=============================================*/
+
+.bloqueajax {
+  margin: 10px auto;
+  padding: 0;
+  min-height: 100px;
+  width: 985px;
+  display: inline-flex;
+}
+.columnaajax {
+  margin: 10px auto;
+  padding-left: 5px;
+  min-height: 75px;
+  min-width: 350px;
+}
+form .columnaajax .col2ajax input,
+form .columnaajax .col2ajax select {
+  min-height: 25px;
+  padding-left: 10px;
+  min-width: 250px;
+  margin-top: 8px;
+  color: #555555;
+  font-size: 10pt;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  box-sizing: border-box;
+}
+.col2ajax {
+  height: 65px;
+  min-width: 320px;
+  display: inline-grid;
+  margin-left: 7.5px;
+}
+form .columna .col2ajax input,
+form .columna .col2ajax select {
+  height: 25px;
+  width: 270px;
+  margin-top: 8px;
+  padding-left: 10px;
+  color: #555555;
+  font-size: 10pt;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  box-sizing: border-box;
+}
+
+/*=============================================
+                COLUMNAS DERECHA
+=============================================*/
+
+.columna_derecha {
+  margin-bottom: 10px;
+  padding-right: 10px;
+  height: 60px;
+  min-width: 350px;
+  float: right;
+}
+form .columna_derecha .col1 input,
+form .columna_derecha .col1 select {
+    height: 25px;
+    width: 100px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    margin-left: 0;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+form .columna_derecha .col2 input,
+form .columna_derecha .col2 select {
+  height: 25px;
+  width: 170px;
+  margin-top: 8px;
+  padding-left: 10px;
+  color: #555555;
+  font-size: 10pt;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #acacac;
+  box-sizing: border-box;
+}
+
+/*=============================================
+                  AJAX CUENTAS
+=============================================*/
+
+.bloqueajax_cuentas {
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+  width: 980px;
+}
+.columnaajax_cuentas {
+  margin: 0 3px 3px 3px;
+  padding-left: 1px;
+  min-height: 75px;
+  min-width: 350px;
+}
+.col2ajax_cuentas {
+  height: 65px;
+  width: 180px;
+  display: inline-block;
+  margin: 20px 5px 5px 0;
+}
+form .columnaajax_cuentas .col2ajax_cuentas input,
+form .columnaajax_cuentas .col2ajax_cuentas select {
+    height: 25px;
+    width: 170px;
+    margin-top: 8px;
+    padding-left: 10px;
+    color: #555555;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col2addajax {
+  height: 65px;
+  width: 200px;
+  display: inline-block;
+  margin: 20px 5px 5px 0;
+}
+form .columnaajax_cuentas .col2addajax input,
+form .columnaajax_cuentas .col2addajax select {
+    height: 25px;
+    width: 170px;
+    margin-top: 8px;
+    padding-left: 10px;
+    color: #555555;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col3ajax_cuentas {
+  height: 75px;
+  width: 300px;
+  float: right;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+form .columnaajax_cuentas .col3ajax_cuentas input,
+form .columnaajax_cuentas .col3ajax_cuentas select {
+    height: 25px;
+    width: 170px;
+    margin-top: 8px;
+    padding-left: 10px;
+    color: #555555;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+
+/*=============================================
+                  AJAX ACCESOS
+=============================================*/
+
+.bloqueajax_accesos {
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+  width: 980px;
+  display: flex;
+}
+.columnaajax_accesos {
+  margin: 0 1px 2px 2px;
+  padding-left: 3px;
+  min-height: 75px;
+  min-width: 350px;
+  display: flex;
+}
+
+/*=============================================
+                    TABLAS
+=============================================*/
+
+#perfiles_tabla {
+  overflow: scroll;
+  width: 950px;
+  height: 200px;
+  font-size: 10pt;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+#perfiles_tabla table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+}
+
+/*=============================================
+                BOTON NIVELES
+=============================================*/
+
+#buttonajax {
+  margin-left: 5px;
+  border:1px solid #337fed;
+  border-radius:20px;
+	background-color:#3d94f6;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	color:#ffffff;
+	height:20px;
+	width:20px;
+}
+#buttonajax:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}
+#buttonajax:active {
+	position:relative;
+  top: 1px;
+}

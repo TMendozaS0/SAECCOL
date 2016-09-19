@@ -1,0 +1,284 @@
+/*Creado: Félix Ricardo Oliva Alonso, 31/08/2016. CSS para las vista de crearModificar Usaurio(s) Solo se reservan los espacios  /*
+/*Modificado: Félix Ricardo Oliva Alonso, 05/09/2016. Se tiene la primera versión de estilos para los formularios y las tabs   /*
+/*Modificado: Jorge Antonio Mendoza Salazar, 08/09/2016. Debido al cambio de la distribución del archivo html correspondiente se cambia las propiedades del formulario /*
+
+/*=============================================
+                  GENERAL
+=============================================*/
+
+#form_cm {
+    width: 800px;
+    min-height: 600px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+#menu_foto {
+    width: 160px;
+    min-height: 600px;
+    box-sizing: border-box;
+    float: right;
+}
+#foto {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+#nota {
+    font-size: 9pt;
+    width: 145px;
+    height: 70px;|
+    position: absolute;
+    padding: 20px 5px 5px 5px;
+    background-color: rgb(236, 171, 177);
+    border-radius: 5px 37px 10px 10px;
+    -moz-border-radius: 5px 37px 10px 10px;
+    -webkit-border-radius: 5px 37px 10px 10px;
+    border: 0px solid #000000;
+}
+#vacio {
+    width: 160px;
+    height: 192px;
+}
+#vacio2 {
+    width: 160px;
+    height: 435px;
+}
+#vacio3 {
+    width: 160px;
+    height: 240px;
+}
+
+/*=============================================
+                  COLUMNAS
+=============================================*/
+
+.columna {
+    min-height: 65px;
+    width: 750px;
+}
+.col3 {
+    height: 65px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .col3 input,
+form .columna .col3 select {
+    height: 25px;
+    padding-left: 10px;
+    width: 300px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col2 {
+    height: 65px;
+    width: 238px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .col2 input,
+form .columna .col2 select {
+    height: 25px;
+    padding-left: 10px;
+    width: 238px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.col1 {
+    height: 65px;
+    width: 114px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .col1 input,
+form .columna .col1 select {
+    height: 25px;
+    width: 114px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    margin-left: 0;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.colmedia {
+    height: 65px;
+    width: 114px;
+    display: inline-block;
+    margin-left: 7.5px;
+}
+form .columna .colmedia input,
+form .columna .colmedia select {
+    height: 25px;
+    width: 45px;
+    padding-left: 10px;
+    margin-top: 8px;
+    color: #555555;
+    font-size: 10pt;
+    margin-left: 0;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+}
+.radios {
+  height: 35px;
+  min-width: 100px;
+  display: inline-block;
+  margin-left: 7.5px;
+}
+form .columna .col2 .radios input {
+  height: 14px;
+  width: 14px;
+  padding-left: 10px;
+  margin-top: 0px;
+  font-size: 12pt;
+}
+
+/*=============================================
+                  VALIDACIONES
+=============================================*/
+
+fieldset {
+    padding: 0px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(173,169,169,0.5);
+}
+#field {
+  padding-top: 4px;
+  padding-left: 2px;
+  padding-right: 15px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(173,169,169,0.5);
+}
+legend{
+    color: #ada9a9;
+}
+strong {
+    color: red;
+    font-weight: bold;
+}
+
+/*=============================================
+                  MENU FOTO
+=============================================*/
+
+#menu_foto nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu_foto nav ul li {
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+}
+#menu_foto nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #555555;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10pt;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+}
+#menu_foto nav ul li a:hover {
+    color: black;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/*=============================================
+                  TABS
+=============================================*/
+
+#tab-1,
+#tab-2,
+#tab-3 {
+    height: 32px;
+    visibility: hidden;
+}
+label {
+    margin-top: 20px;
+    width: 233px;
+    font-size: 11pt;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: #999999;
+    /*color de letra*/
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+
+}
+input:hover + label {
+    border-top: 3px solid rgba(204, 204, 204, 0.3);
+    /* Fondo de las pestañas al pasar el cursor por encima */
+    color: black;
+    /* Color del texto de las pestañas al pasar el cursor por encima */
+    box-sizing: border-box;
+
+}
+input:checked + label {
+    background: rgba(204, 204, 204, 0.3);
+    /* PESTAÑA ACTIVADA */
+    color: black;
+    z-index: 6;
+    line-height: 45px;
+    height: 45px;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -o-transition: .1s;
+    -ms-transition: .1s;
+}
+.content {
+    width: 980px;
+    min-height: 610px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 5;
+}
+.content .content-1,
+.content .content-2,
+.content .content-3 {
+    position: absolute;
+    z-index: -100;
+    visibility: hidden;
+    transition: all linear 0.1s;
+}
+#contenedor  input.tab-selector-1:checked ~ .content .content-1,
+#contenedor  input.tab-selector-2:checked ~ .content .content-2,
+#contenedor  input.tab-selector-3:checked ~ .content .content-3 {
+    z-index: 100;
+    visibility: visible;
+    -webkit-transition: all ease-out 0.2s 0.1s;
+    -moz-transition: all ease-out 0.2s 0.1s;
+    -o-transition: all ease-out 0.2s 0.1s;
+    -ms-transition: all ease-out 0.2s 0.1s;
+}

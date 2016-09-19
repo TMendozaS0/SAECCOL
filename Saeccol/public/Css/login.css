@@ -1,0 +1,62 @@
+
+
+#contenedor {
+    width: 990px;
+    min-height: 500px;
+    /*border: 1px solid red;*/
+
+    box-sizing: border-box;
+    margin-top: 40px;
+    font-size: 14px;
+}
+#contenedor #main {
+    width: 500px;
+    min-height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+#contenedor #main form input {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+}
+#contenedor #main form input:focus {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(42, 125, 159, 0.71);
+    -moz-border: 1px solid rgba(42, 125, 159, 0.71);
+    -webkit-border: 1px solid rgba(42, 125, 159, 0.71);
+}
+#contenedor #main form h4 {
+    font-size: 17pt;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+#contenedor #main form button {
+    width: 315px;
+    height: 35px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    -moz-border: 1px solid #acacac;
+    -webkit-bordrs: 1px solid #acacac;
+}
+#contenedor #main form button:active,
+#main form button:hover {
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(42, 125, 159, 0.71);
+    -moz-border: 1px solid rgba(42, 125, 159, 0.71);
+    -webkit-border: 1px solid rgba(42, 125, 159, 0.71);
+}
